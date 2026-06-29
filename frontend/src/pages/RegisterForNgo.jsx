@@ -5,7 +5,7 @@ import './RegisterForNgo.css';
 import logo from '../assets/images/logo.png';
 import sideImage from '../assets/images/Home.jpg';
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 function RegisterForNgo() {
     

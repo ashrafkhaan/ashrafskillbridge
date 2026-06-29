@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import "./EditOpportunity.css";
 
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 const EditOpportunity = () => {
   const { id } = useParams();

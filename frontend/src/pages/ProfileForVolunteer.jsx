@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './ProfileForVolunteer.css'; 
 import defaultAvatar from '../assets/images/pic.png';
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 function ProfileForVolunteer() {
   const [profileData, setProfileData] = useState(null);

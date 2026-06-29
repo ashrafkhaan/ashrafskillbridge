@@ -4,7 +4,7 @@ import './Applications.css';
 import { FaPlus, FaChevronDown } from 'react-icons/fa';
 
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 const ApplicationCard = ({ app, onUpdateStatus }) => {
     

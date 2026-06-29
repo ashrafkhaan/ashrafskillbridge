@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { FaPlus, FaEdit, FaTrash } from 'react-icons/fa';
 import './Applications.css'; // reuse same styling
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 const OpportunityCard = ({ opportunity, onDelete }) => {
   return (

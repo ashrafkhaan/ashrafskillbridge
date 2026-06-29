@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
 import './MyApplications.css';
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 const ApplicationCard = ({ app }) => {
   if (!app.opportunity) {

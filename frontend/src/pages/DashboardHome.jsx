@@ -6,7 +6,7 @@ import { FaPlus, FaRegCommentDots } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 function DashboardHome() {
   

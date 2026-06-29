@@ -8,7 +8,7 @@ import { toast } from 'react-toastify';
 
 
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 const SOCKET_URL = "https://ashrafskillbridge.onrender.com/api";
 
 function Notification() {

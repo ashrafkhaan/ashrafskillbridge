@@ -15,7 +15,7 @@ import {
 } from 'react-icons/fa';
 import Notification from './Notification.jsx';
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 function DashboardForVolunteer() {
   const location = useLocation();

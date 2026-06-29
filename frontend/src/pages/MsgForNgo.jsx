@@ -5,7 +5,7 @@ import { BsThreeDotsVertical, BsPlusCircle } from 'react-icons/bs';
 import { FiSend } from 'react-icons/fi';
 import io from 'socket.io-client'; 
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 const SOCKET_URL = "https://ashrafskillbridge.onrender.com/api";
 
 const ChatListItem = ({ chat, onSelectChat, selected }) => (

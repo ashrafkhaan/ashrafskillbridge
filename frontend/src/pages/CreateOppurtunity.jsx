@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './CreateOppurtunity.css'; 
 import { FaArrowLeft } from 'react-icons/fa'; 
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 const CreateOpportunity = () => {
     const [formData, setFormData] = useState({

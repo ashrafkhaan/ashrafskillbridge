@@ -5,7 +5,7 @@ import './ProfileForNgo.css';
 import defaultAvatar from '../assets/images/pic.png'; 
 
 
-const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const API_URL = "https://ashrafskillbridge.onrender.com";
 
 function ProfileForNgo() {
   const [profileData, setProfileData] = useState(null);
