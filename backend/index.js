@@ -71,8 +71,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
         origin: ["http://localhost:3000",
-            "https://skillbridge-app-1.onrender.com",
-            "https://skillbridge-application.netlify.app"
+            "https://ashrafskillbridge.vercel.app"
         ],
         methods: ["GET", "POST"]
     }
