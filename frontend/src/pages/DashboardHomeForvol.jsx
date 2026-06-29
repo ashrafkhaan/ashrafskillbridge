@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './DashboardHomeForvol.css'; 
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080/api';
+const API_URL = "https://ashrafskillbridge.onrender.com/api";
 
 const OpportunityCard = ({ opp }) => (
   <div className="opportunity-preview-card">

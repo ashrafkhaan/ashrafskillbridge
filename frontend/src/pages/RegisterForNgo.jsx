@@ -5,7 +5,7 @@ import './RegisterForNgo.css';
 import logo from '../assets/images/logo.png';
 import sideImage from '../assets/images/Home.jpg';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080/api';
+const API_URL = "https://ashrafskillbridge.onrender.com/api";
 
 function RegisterForNgo() {
     

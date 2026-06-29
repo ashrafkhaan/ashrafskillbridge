@@ -8,8 +8,8 @@ import { toast } from 'react-toastify';
 
 
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080/api';
-const SOCKET_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080/api';
+const API_URL = "https://ashrafskillbridge.onrender.com/api";
+const SOCKET_URL = "https://ashrafskillbridge.onrender.com/api";
 
 function Notification() {
     const [notifications, setNotifications] = useState([]);

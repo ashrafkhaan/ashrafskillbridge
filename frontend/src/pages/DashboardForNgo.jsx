@@ -15,7 +15,7 @@ import {
   FaTimes
 } from 'react-icons/fa';
 import Notification from './Notification.jsx';
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080/api';
+const API_URL = "https://ashrafskillbridge.onrender.com/api";
 
 function DashboardForNgo() {
   const location = useLocation();

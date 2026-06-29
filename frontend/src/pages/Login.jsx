@@ -8,7 +8,7 @@ import facebook from '../assets/images/facebook.png';
 import apple from '../assets/images/apple.png';
 import loginPic from '../assets/images/Home.jpg'; 
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080/api'; 
+const API_URL = "https://ashrafskillbridge.onrender.com/api";
 
 const Login = () => {
     const [email, setEmail] = useState('');
