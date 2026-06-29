@@ -84,7 +84,7 @@ const io = new Server(server, {
 
 
 // 1. Create a specific namespace for /api
-const apiSocket = io.of("/");
+const apiSocket = io.of("/api");
 
 
 apiSocket.use(async(socket, next) => {
