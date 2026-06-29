@@ -7,7 +7,7 @@ import logo from '../assets/images/logo.png';
 import sideImage from '../assets/images/Home.jpg';
 
 
-const API_URL = "https://ashrafskillbridge.onrender.com";
+const API_URL = "https://ashrafskillbridge.onrender.com/api";
 
 function RegisterForVolunteer() {
    
