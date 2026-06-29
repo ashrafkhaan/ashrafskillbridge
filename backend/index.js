@@ -73,8 +73,10 @@ const io = new Server(server, {
         origin: ["http://localhost:3000",
             "https://ashrafskillbridge.vercel.app"
         ],
-        methods: ["GET", "POST"]
-    }
+        methods: ["GET", "POST"],
+        credentials: true
+    },
+    transports: ["websocket", "polling"]
 });
 
 
