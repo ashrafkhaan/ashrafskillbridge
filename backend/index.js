@@ -43,14 +43,10 @@ async function main() {
     await mongoose.connect(MONGO_URL);
 }
 
-app.use(
-    cors({
-        origin: [
-            "https://ashrafskillbridge.onrender.com"
-        ],
-        credentials: true
-    })
-);
+app.use(cors({
+    origin: "https://ashrafskillbridge.vercel.app",
+    credentials: true,
+}));
 
 app.use(express.json());
 
